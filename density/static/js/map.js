@@ -1,7 +1,6 @@
 // vanilla js document.ready bc we are kool kids
 document.addEventListener('DOMContentLoaded', function() {
-  console.log(document.getElementById('map'));
-
+  
   // This recursive function waits until the SVG is fully loaded
   // before executing the relevant javascript. This solves
   // the issue of the javascript not being run on Safari.
